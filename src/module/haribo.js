@@ -9,20 +9,17 @@ let dmJson = JSON.parse(fs.readFileSync("./storage/output/dummy.json"));
 /*
 {
     "longMr" : [
-        {
-            "name":"",
-            "mkDate":"",
-            "content":""
-        }
+
     ],
     "shortMr" : [
-        {
-            "name":"",
-            "mkDate":"",
-            "content":""
-        }
+
     ]
 }
+
+{
+    "noNeed":[]
+}
+
 */
 
 
@@ -124,10 +121,28 @@ function colorMost2(color) {
     return re;
 }
 
+function fileClear(){
+    mrJson={
+        "longMr" : [
+    
+        ],
+        "shortMr" : [
+    
+        ]
+    };
+    dmJson={
+        "noNeed":[]
+    };
+    fs.writeFileSync("./storage/output/memory.json", JSON.stringify(mrJson), "utf-8");
+    fs.writeFileSync("./storage/output/dummy.json", JSON.stringify(dmJson), "utf-8");
+    return 0;
+}
+
 module.exports = {
     haribo,
     colorMost,
     colorMost2,
     sibal,
-    long
+    long,
+    fileClear
 }
