@@ -23,7 +23,7 @@ let dmJson = JSON.parse(fs.readFileSync("./storage/output/dummy.json"));
 */
 
 
-function sibal(n) {
+function writeBase(n) {
     var text = "";
     for (i = 0; i < n; i++) {
         text += (`{"bagNum":${i},
@@ -102,25 +102,6 @@ function colorMost(color) {
     return re;
 }
 
-function colorMost2(color) {
-    dataJson = JSON.parse(fs.readFileSync("./storage/output/memory.json"));
-    var re = [];
-    //console.log(eval(`dataJson.bag.colorNum[0].${color}`))
-    var d;
-    var num = 0;
-    for (i = 0; i < dataJson.longMr.length; i++) {
-        d = dataJson.longMr[i];
-        if (Math.max(d.orange, d.red, d.yellow, d.green, d.white) == eval(`d.${color}`)) {
-            re.push(dataJson.longMr[i].bagNum);
-            num+=eval(`d.${color}`);
-        }
-    }
-    //console.log(num/n);
-    if (re == []) return -1;
-    //console.log(re)
-    return re;
-}
-
 function fileClear(){
     mrJson={
         "longMr" : [
@@ -141,8 +122,7 @@ function fileClear(){
 module.exports = {
     haribo,
     colorMost,
-    colorMost2,
-    sibal,
+    writeBase,
     long,
     fileClear
 }
