@@ -4,8 +4,6 @@ let dataJson = JSON.parse(fs.readFileSync("./storage/input/data.json"));
 let mrJson = JSON.parse(fs.readFileSync("./storage/output/memory.json"));
 let dmJson = JSON.parse(fs.readFileSync("./storage/output/dummy.json"));
 
-
-
 /*
 {
     "longMr" : [
@@ -35,16 +33,16 @@ function writeBase(n) {
             ,  `);
     }
     text = text.slice(0, -1);
-    text=text.split(",  ");
-    text[n-1]=text[n-1].replace(", ","");
+    text = text.split(",  ");
+    text[n - 1] = text[n - 1].replace(", ", "");
     //text = text.splice(n, n-1)
-    
+
     var json = {
         "bag": {
             "colorNum": []
         }
     }
-    for(i=0;i<n;i++){
+    for (i = 0; i < n; i++) {
         json.bag.colorNum.push(JSON.parse(text[i]));
     }
     //console.log(json);
@@ -59,21 +57,21 @@ function haribo() {
     return 0;
 }
 
-function long(color){
+function long(color) {
     //dataJson = JSON.parse(fs.readFileSync("./storage/input/data.json"));
-    j=0
+    j = 0
     mrJson = JSON.parse(fs.readFileSync("./storage/output/memory.json"));
     mrJson.longMr = [];
     for (i = 0; i < mrJson.shortMr[0].length; i++) {
-        
+
         d = mrJson.shortMr[0][i];
         //console.log(d)
         //console.log(eval(`d.${color}`))
-        if (eval(`d.${color}`)>=4) {
-            
+        if (eval(`d.${color}`) >= 4) {
+
             mrJson.longMr.push(d);
             j++
-        }else{
+        } else {
             dmJson.noNeed.push(d);
         }
     }
@@ -94,7 +92,7 @@ function colorMost(color) {
         d = dataJson.bag.colorNum[i];
         if (Math.max(d.orange, d.red, d.yellow, d.green, d.white) == eval(`d.${color}`)) {
             re.push(dataJson.bag.colorNum[i].bagNum);
-            num+=eval(`d.${color}`);
+            num += eval(`d.${color}`);
         }
     }
     //console.log(num/n);
@@ -102,20 +100,30 @@ function colorMost(color) {
     return re;
 }
 
-function fileClear(){
-    mrJson={
-        "longMr" : [
-    
+function fileClear() {
+    mrJson = {
+        "longMr": [
+
         ],
-        "shortMr" : [
-    
+        "shortMr": [
+
         ]
     };
-    dmJson={
-        "noNeed":[]
+    dmJson = {
+        "noNeed": []
     };
+    dataJson = {
+        "bag": {
+            "colorNum": [
+                {
+
+                }
+            ]
+        }
+    }
     fs.writeFileSync("./storage/output/memory.json", JSON.stringify(mrJson), "utf-8");
     fs.writeFileSync("./storage/output/dummy.json", JSON.stringify(dmJson), "utf-8");
+    fs.writeFileSync("./storage/input/data.json", JSON.stringify(dataJson), "utf-8");
     return 0;
 }
 

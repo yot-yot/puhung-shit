@@ -1,1 +1,806 @@
-{"bag":{"colorNum":[{"bagNum":0,"white":7,"red":6,"green":4,"yellow":5,"orange":0},{"bagNum":1,"white":4,"red":8,"green":5,"yellow":4,"orange":8},{"bagNum":2,"white":7,"red":2,"green":2,"yellow":1,"orange":1},{"bagNum":3,"white":8,"red":6,"green":3,"yellow":6,"orange":2},{"bagNum":4,"white":6,"red":6,"green":8,"yellow":8,"orange":1},{"bagNum":5,"white":2,"red":1,"green":2,"yellow":2,"orange":0},{"bagNum":6,"white":4,"red":7,"green":2,"yellow":8,"orange":0},{"bagNum":7,"white":1,"red":1,"green":1,"yellow":5,"orange":3},{"bagNum":8,"white":5,"red":1,"green":5,"yellow":3,"orange":7},{"bagNum":9,"white":2,"red":4,"green":6,"yellow":6,"orange":1},{"bagNum":10,"white":5,"red":2,"green":3,"yellow":7,"orange":1},{"bagNum":11,"white":7,"red":3,"green":4,"yellow":4,"orange":1},{"bagNum":12,"white":0,"red":8,"green":1,"yellow":1,"orange":4},{"bagNum":13,"white":1,"red":2,"green":8,"yellow":0,"orange":4},{"bagNum":14,"white":7,"red":1,"green":6,"yellow":6,"orange":6},{"bagNum":15,"white":1,"red":7,"green":4,"yellow":5,"orange":1},{"bagNum":16,"white":5,"red":8,"green":0,"yellow":5,"orange":7},{"bagNum":17,"white":8,"red":3,"green":2,"yellow":2,"orange":2},{"bagNum":18,"white":5,"red":7,"green":6,"yellow":6,"orange":1},{"bagNum":19,"white":2,"red":5,"green":5,"yellow":3,"orange":8},{"bagNum":20,"white":4,"red":7,"green":0,"yellow":8,"orange":7},{"bagNum":21,"white":6,"red":1,"green":1,"yellow":1,"orange":4},{"bagNum":22,"white":0,"red":0,"green":7,"yellow":1,"orange":8},{"bagNum":23,"white":0,"red":2,"green":6,"yellow":0,"orange":7},{"bagNum":24,"white":8,"red":7,"green":5,"yellow":5,"orange":8},{"bagNum":25,"white":4,"red":4,"green":7,"yellow":8,"orange":5},{"bagNum":26,"white":1,"red":2,"green":2,"yellow":0,"orange":6},{"bagNum":27,"white":1,"red":4,"green":6,"yellow":3,"orange":6},{"bagNum":28,"white":5,"red":0,"green":0,"yellow":2,"orange":8},{"bagNum":29,"white":6,"red":7,"green":0,"yellow":1,"orange":7},{"bagNum":30,"white":4,"red":7,"green":1,"yellow":2,"orange":2},{"bagNum":31,"white":6,"red":1,"green":8,"yellow":4,"orange":4},{"bagNum":32,"white":1,"red":7,"green":1,"yellow":1,"orange":0},{"bagNum":33,"white":3,"red":8,"green":1,"yellow":0,"orange":3},{"bagNum":34,"white":5,"red":6,"green":1,"yellow":3,"orange":6},{"bagNum":35,"white":8,"red":4,"green":1,"yellow":8,"orange":2},{"bagNum":36,"white":7,"red":2,"green":7,"yellow":5,"orange":1},{"bagNum":37,"white":6,"red":2,"green":0,"yellow":6,"orange":8},{"bagNum":38,"white":2,"red":7,"green":1,"yellow":0,"orange":2},{"bagNum":39,"white":8,"red":7,"green":1,"yellow":5,"orange":0},{"bagNum":40,"white":7,"red":3,"green":8,"yellow":1,"orange":4},{"bagNum":41,"white":0,"red":6,"green":8,"yellow":8,"orange":3},{"bagNum":42,"white":7,"red":4,"green":2,"yellow":8,"orange":3},{"bagNum":43,"white":6,"red":0,"green":2,"yellow":1,"orange":2},{"bagNum":44,"white":3,"red":3,"green":7,"yellow":7,"orange":1},{"bagNum":45,"white":2,"red":5,"green":8,"yellow":4,"orange":0},{"bagNum":46,"white":4,"red":7,"green":3,"yellow":3,"orange":8},{"bagNum":47,"white":5,"red":0,"green":7,"yellow":3,"orange":5},{"bagNum":48,"white":1,"red":2,"green":0,"yellow":0,"orange":1},{"bagNum":49,"white":5,"red":5,"green":7,"yellow":7,"orange":0},{"bagNum":50,"white":4,"red":5,"green":5,"yellow":0,"orange":6},{"bagNum":51,"white":2,"red":2,"green":7,"yellow":3,"orange":8},{"bagNum":52,"white":0,"red":7,"green":2,"yellow":4,"orange":0},{"bagNum":53,"white":5,"red":5,"green":3,"yellow":3,"orange":7},{"bagNum":54,"white":2,"red":4,"green":1,"yellow":1,"orange":8},{"bagNum":55,"white":8,"red":1,"green":0,"yellow":0,"orange":8},{"bagNum":56,"white":8,"red":6,"green":5,"yellow":5,"orange":7},{"bagNum":57,"white":1,"red":8,"green":7,"yellow":2,"orange":8},{"bagNum":58,"white":4,"red":8,"green":5,"yellow":3,"orange":4},{"bagNum":59,"white":0,"red":6,"green":0,"yellow":5,"orange":0},{"bagNum":60,"white":6,"red":0,"green":7,"yellow":3,"orange":5},{"bagNum":61,"white":1,"red":6,"green":7,"yellow":8,"orange":3},{"bagNum":62,"white":8,"red":3,"green":6,"yellow":6,"orange":4},{"bagNum":63,"white":0,"red":2,"green":5,"yellow":2,"orange":4},{"bagNum":64,"white":0,"red":4,"green":7,"yellow":0,"orange":4},{"bagNum":65,"white":5,"red":2,"green":3,"yellow":1,"orange":6},{"bagNum":66,"white":1,"red":0,"green":4,"yellow":8,"orange":4},{"bagNum":67,"white":8,"red":3,"green":1,"yellow":5,"orange":3},{"bagNum":68,"white":5,"red":0,"green":2,"yellow":7,"orange":3},{"bagNum":69,"white":3,"red":3,"green":6,"yellow":4,"orange":0},{"bagNum":70,"white":5,"red":6,"green":1,"yellow":6,"orange":1},{"bagNum":71,"white":5,"red":2,"green":1,"yellow":2,"orange":4},{"bagNum":72,"white":2,"red":6,"green":1,"yellow":8,"orange":3},{"bagNum":73,"white":4,"red":6,"green":2,"yellow":1,"orange":4},{"bagNum":74,"white":4,"red":0,"green":5,"yellow":4,"orange":0},{"bagNum":75,"white":8,"red":0,"green":4,"yellow":7,"orange":7},{"bagNum":76,"white":5,"red":3,"green":8,"yellow":2,"orange":2},{"bagNum":77,"white":4,"red":8,"green":5,"yellow":6,"orange":8},{"bagNum":78,"white":6,"red":8,"green":2,"yellow":3,"orange":7},{"bagNum":79,"white":4,"red":6,"green":1,"yellow":4,"orange":2},{"bagNum":80,"white":0,"red":1,"green":8,"yellow":5,"orange":6},{"bagNum":81,"white":3,"red":7,"green":8,"yellow":1,"orange":6},{"bagNum":82,"white":4,"red":6,"green":6,"yellow":5,"orange":5},{"bagNum":83,"white":0,"red":8,"green":6,"yellow":3,"orange":6},{"bagNum":84,"white":6,"red":3,"green":2,"yellow":2,"orange":3},{"bagNum":85,"white":2,"red":3,"green":0,"yellow":8,"orange":6},{"bagNum":86,"white":8,"red":5,"green":1,"yellow":7,"orange":5},{"bagNum":87,"white":6,"red":0,"green":0,"yellow":5,"orange":2},{"bagNum":88,"white":8,"red":7,"green":0,"yellow":2,"orange":1},{"bagNum":89,"white":5,"red":3,"green":6,"yellow":2,"orange":8},{"bagNum":90,"white":7,"red":5,"green":6,"yellow":8,"orange":5},{"bagNum":91,"white":8,"red":8,"green":3,"yellow":7,"orange":5},{"bagNum":92,"white":5,"red":6,"green":5,"yellow":2,"orange":8},{"bagNum":93,"white":6,"red":0,"green":0,"yellow":4,"orange":6},{"bagNum":94,"white":0,"red":3,"green":1,"yellow":2,"orange":5},{"bagNum":95,"white":7,"red":0,"green":1,"yellow":4,"orange":1},{"bagNum":96,"white":6,"red":6,"green":2,"yellow":0,"orange":8},{"bagNum":97,"white":2,"red":6,"green":2,"yellow":0,"orange":7},{"bagNum":98,"white":7,"red":4,"green":0,"yellow":2,"orange":1},{"bagNum":99,"white":2,"red":5,"green":7,"yellow":2,"orange":5}]}}
+{
+    "bag": {
+        "colorNum": [
+            {
+                "bagNum": 0,
+                "white": 2,
+                "red": 0,
+                "green": 0,
+                "yellow": 8,
+                "orange": 7
+            },
+            {
+                "bagNum": 1,
+                "white": 3,
+                "red": 6,
+                "green": 0,
+                "yellow": 5,
+                "orange": 0
+            },
+            {
+                "bagNum": 2,
+                "white": 4,
+                "red": 7,
+                "green": 2,
+                "yellow": 7,
+                "orange": 0
+            },
+            {
+                "bagNum": 3,
+                "white": 4,
+                "red": 7,
+                "green": 1,
+                "yellow": 8,
+                "orange": 8
+            },
+            {
+                "bagNum": 4,
+                "white": 0,
+                "red": 3,
+                "green": 2,
+                "yellow": 4,
+                "orange": 3
+            },
+            {
+                "bagNum": 5,
+                "white": 2,
+                "red": 5,
+                "green": 0,
+                "yellow": 5,
+                "orange": 8
+            },
+            {
+                "bagNum": 6,
+                "white": 1,
+                "red": 7,
+                "green": 4,
+                "yellow": 3,
+                "orange": 8
+            },
+            {
+                "bagNum": 7,
+                "white": 2,
+                "red": 2,
+                "green": 4,
+                "yellow": 7,
+                "orange": 0
+            },
+            {
+                "bagNum": 8,
+                "white": 1,
+                "red": 3,
+                "green": 5,
+                "yellow": 3,
+                "orange": 6
+            },
+            {
+                "bagNum": 9,
+                "white": 3,
+                "red": 2,
+                "green": 4,
+                "yellow": 1,
+                "orange": 4
+            },
+            {
+                "bagNum": 10,
+                "white": 1,
+                "red": 1,
+                "green": 1,
+                "yellow": 5,
+                "orange": 1
+            },
+            {
+                "bagNum": 11,
+                "white": 8,
+                "red": 0,
+                "green": 7,
+                "yellow": 3,
+                "orange": 2
+            },
+            {
+                "bagNum": 12,
+                "white": 2,
+                "red": 3,
+                "green": 6,
+                "yellow": 7,
+                "orange": 4
+            },
+            {
+                "bagNum": 13,
+                "white": 5,
+                "red": 8,
+                "green": 3,
+                "yellow": 0,
+                "orange": 2
+            },
+            {
+                "bagNum": 14,
+                "white": 8,
+                "red": 7,
+                "green": 4,
+                "yellow": 3,
+                "orange": 6
+            },
+            {
+                "bagNum": 15,
+                "white": 3,
+                "red": 4,
+                "green": 3,
+                "yellow": 8,
+                "orange": 8
+            },
+            {
+                "bagNum": 16,
+                "white": 1,
+                "red": 5,
+                "green": 7,
+                "yellow": 2,
+                "orange": 5
+            },
+            {
+                "bagNum": 17,
+                "white": 2,
+                "red": 8,
+                "green": 4,
+                "yellow": 1,
+                "orange": 6
+            },
+            {
+                "bagNum": 18,
+                "white": 6,
+                "red": 1,
+                "green": 3,
+                "yellow": 8,
+                "orange": 0
+            },
+            {
+                "bagNum": 19,
+                "white": 7,
+                "red": 4,
+                "green": 4,
+                "yellow": 2,
+                "orange": 0
+            },
+            {
+                "bagNum": 20,
+                "white": 3,
+                "red": 4,
+                "green": 5,
+                "yellow": 7,
+                "orange": 3
+            },
+            {
+                "bagNum": 21,
+                "white": 4,
+                "red": 5,
+                "green": 1,
+                "yellow": 4,
+                "orange": 5
+            },
+            {
+                "bagNum": 22,
+                "white": 7,
+                "red": 8,
+                "green": 6,
+                "yellow": 6,
+                "orange": 2
+            },
+            {
+                "bagNum": 23,
+                "white": 7,
+                "red": 0,
+                "green": 1,
+                "yellow": 7,
+                "orange": 1
+            },
+            {
+                "bagNum": 24,
+                "white": 8,
+                "red": 3,
+                "green": 0,
+                "yellow": 5,
+                "orange": 1
+            },
+            {
+                "bagNum": 25,
+                "white": 2,
+                "red": 3,
+                "green": 8,
+                "yellow": 8,
+                "orange": 3
+            },
+            {
+                "bagNum": 26,
+                "white": 3,
+                "red": 6,
+                "green": 2,
+                "yellow": 2,
+                "orange": 6
+            },
+            {
+                "bagNum": 27,
+                "white": 5,
+                "red": 1,
+                "green": 5,
+                "yellow": 1,
+                "orange": 0
+            },
+            {
+                "bagNum": 28,
+                "white": 2,
+                "red": 4,
+                "green": 2,
+                "yellow": 6,
+                "orange": 7
+            },
+            {
+                "bagNum": 29,
+                "white": 3,
+                "red": 8,
+                "green": 0,
+                "yellow": 5,
+                "orange": 0
+            },
+            {
+                "bagNum": 30,
+                "white": 3,
+                "red": 3,
+                "green": 6,
+                "yellow": 8,
+                "orange": 8
+            },
+            {
+                "bagNum": 31,
+                "white": 0,
+                "red": 7,
+                "green": 5,
+                "yellow": 2,
+                "orange": 8
+            },
+            {
+                "bagNum": 32,
+                "white": 0,
+                "red": 8,
+                "green": 5,
+                "yellow": 6,
+                "orange": 3
+            },
+            {
+                "bagNum": 33,
+                "white": 5,
+                "red": 2,
+                "green": 4,
+                "yellow": 1,
+                "orange": 5
+            },
+            {
+                "bagNum": 34,
+                "white": 5,
+                "red": 5,
+                "green": 0,
+                "yellow": 1,
+                "orange": 0
+            },
+            {
+                "bagNum": 35,
+                "white": 3,
+                "red": 4,
+                "green": 0,
+                "yellow": 5,
+                "orange": 7
+            },
+            {
+                "bagNum": 36,
+                "white": 5,
+                "red": 5,
+                "green": 0,
+                "yellow": 1,
+                "orange": 7
+            },
+            {
+                "bagNum": 37,
+                "white": 0,
+                "red": 2,
+                "green": 5,
+                "yellow": 1,
+                "orange": 0
+            },
+            {
+                "bagNum": 38,
+                "white": 8,
+                "red": 5,
+                "green": 2,
+                "yellow": 5,
+                "orange": 8
+            },
+            {
+                "bagNum": 39,
+                "white": 3,
+                "red": 8,
+                "green": 4,
+                "yellow": 0,
+                "orange": 7
+            },
+            {
+                "bagNum": 40,
+                "white": 6,
+                "red": 0,
+                "green": 1,
+                "yellow": 0,
+                "orange": 1
+            },
+            {
+                "bagNum": 41,
+                "white": 3,
+                "red": 0,
+                "green": 6,
+                "yellow": 7,
+                "orange": 7
+            },
+            {
+                "bagNum": 42,
+                "white": 7,
+                "red": 8,
+                "green": 2,
+                "yellow": 4,
+                "orange": 2
+            },
+            {
+                "bagNum": 43,
+                "white": 6,
+                "red": 8,
+                "green": 0,
+                "yellow": 5,
+                "orange": 7
+            },
+            {
+                "bagNum": 44,
+                "white": 5,
+                "red": 7,
+                "green": 2,
+                "yellow": 6,
+                "orange": 0
+            },
+            {
+                "bagNum": 45,
+                "white": 0,
+                "red": 5,
+                "green": 0,
+                "yellow": 8,
+                "orange": 4
+            },
+            {
+                "bagNum": 46,
+                "white": 0,
+                "red": 1,
+                "green": 7,
+                "yellow": 4,
+                "orange": 0
+            },
+            {
+                "bagNum": 47,
+                "white": 7,
+                "red": 3,
+                "green": 7,
+                "yellow": 3,
+                "orange": 3
+            },
+            {
+                "bagNum": 48,
+                "white": 5,
+                "red": 1,
+                "green": 6,
+                "yellow": 5,
+                "orange": 0
+            },
+            {
+                "bagNum": 49,
+                "white": 3,
+                "red": 6,
+                "green": 1,
+                "yellow": 5,
+                "orange": 3
+            },
+            {
+                "bagNum": 50,
+                "white": 5,
+                "red": 0,
+                "green": 6,
+                "yellow": 2,
+                "orange": 5
+            },
+            {
+                "bagNum": 51,
+                "white": 2,
+                "red": 7,
+                "green": 3,
+                "yellow": 2,
+                "orange": 6
+            },
+            {
+                "bagNum": 52,
+                "white": 4,
+                "red": 4,
+                "green": 5,
+                "yellow": 6,
+                "orange": 8
+            },
+            {
+                "bagNum": 53,
+                "white": 0,
+                "red": 8,
+                "green": 5,
+                "yellow": 7,
+                "orange": 1
+            },
+            {
+                "bagNum": 54,
+                "white": 0,
+                "red": 8,
+                "green": 7,
+                "yellow": 2,
+                "orange": 3
+            },
+            {
+                "bagNum": 55,
+                "white": 3,
+                "red": 7,
+                "green": 6,
+                "yellow": 4,
+                "orange": 0
+            },
+            {
+                "bagNum": 56,
+                "white": 5,
+                "red": 4,
+                "green": 4,
+                "yellow": 2,
+                "orange": 4
+            },
+            {
+                "bagNum": 57,
+                "white": 8,
+                "red": 6,
+                "green": 3,
+                "yellow": 7,
+                "orange": 7
+            },
+            {
+                "bagNum": 58,
+                "white": 2,
+                "red": 7,
+                "green": 3,
+                "yellow": 8,
+                "orange": 1
+            },
+            {
+                "bagNum": 59,
+                "white": 7,
+                "red": 6,
+                "green": 6,
+                "yellow": 0,
+                "orange": 1
+            },
+            {
+                "bagNum": 60,
+                "white": 5,
+                "red": 7,
+                "green": 5,
+                "yellow": 1,
+                "orange": 8
+            },
+            {
+                "bagNum": 61,
+                "white": 4,
+                "red": 0,
+                "green": 2,
+                "yellow": 7,
+                "orange": 6
+            },
+            {
+                "bagNum": 62,
+                "white": 2,
+                "red": 8,
+                "green": 4,
+                "yellow": 0,
+                "orange": 6
+            },
+            {
+                "bagNum": 63,
+                "white": 6,
+                "red": 8,
+                "green": 8,
+                "yellow": 7,
+                "orange": 4
+            },
+            {
+                "bagNum": 64,
+                "white": 3,
+                "red": 7,
+                "green": 5,
+                "yellow": 4,
+                "orange": 8
+            },
+            {
+                "bagNum": 65,
+                "white": 8,
+                "red": 5,
+                "green": 3,
+                "yellow": 5,
+                "orange": 3
+            },
+            {
+                "bagNum": 66,
+                "white": 1,
+                "red": 1,
+                "green": 1,
+                "yellow": 2,
+                "orange": 8
+            },
+            {
+                "bagNum": 67,
+                "white": 8,
+                "red": 7,
+                "green": 3,
+                "yellow": 4,
+                "orange": 1
+            },
+            {
+                "bagNum": 68,
+                "white": 1,
+                "red": 7,
+                "green": 8,
+                "yellow": 0,
+                "orange": 2
+            },
+            {
+                "bagNum": 69,
+                "white": 7,
+                "red": 3,
+                "green": 5,
+                "yellow": 3,
+                "orange": 5
+            },
+            {
+                "bagNum": 70,
+                "white": 2,
+                "red": 6,
+                "green": 6,
+                "yellow": 3,
+                "orange": 8
+            },
+            {
+                "bagNum": 71,
+                "white": 5,
+                "red": 0,
+                "green": 0,
+                "yellow": 7,
+                "orange": 7
+            },
+            {
+                "bagNum": 72,
+                "white": 1,
+                "red": 6,
+                "green": 6,
+                "yellow": 3,
+                "orange": 2
+            },
+            {
+                "bagNum": 73,
+                "white": 2,
+                "red": 5,
+                "green": 2,
+                "yellow": 4,
+                "orange": 7
+            },
+            {
+                "bagNum": 74,
+                "white": 4,
+                "red": 4,
+                "green": 2,
+                "yellow": 0,
+                "orange": 2
+            },
+            {
+                "bagNum": 75,
+                "white": 6,
+                "red": 0,
+                "green": 4,
+                "yellow": 0,
+                "orange": 0
+            },
+            {
+                "bagNum": 76,
+                "white": 6,
+                "red": 5,
+                "green": 8,
+                "yellow": 5,
+                "orange": 1
+            },
+            {
+                "bagNum": 77,
+                "white": 7,
+                "red": 6,
+                "green": 6,
+                "yellow": 2,
+                "orange": 3
+            },
+            {
+                "bagNum": 78,
+                "white": 1,
+                "red": 4,
+                "green": 5,
+                "yellow": 4,
+                "orange": 8
+            },
+            {
+                "bagNum": 79,
+                "white": 4,
+                "red": 5,
+                "green": 0,
+                "yellow": 7,
+                "orange": 7
+            },
+            {
+                "bagNum": 80,
+                "white": 5,
+                "red": 4,
+                "green": 0,
+                "yellow": 7,
+                "orange": 5
+            },
+            {
+                "bagNum": 81,
+                "white": 6,
+                "red": 7,
+                "green": 7,
+                "yellow": 7,
+                "orange": 1
+            },
+            {
+                "bagNum": 82,
+                "white": 6,
+                "red": 4,
+                "green": 8,
+                "yellow": 1,
+                "orange": 6
+            },
+            {
+                "bagNum": 83,
+                "white": 2,
+                "red": 6,
+                "green": 6,
+                "yellow": 4,
+                "orange": 0
+            },
+            {
+                "bagNum": 84,
+                "white": 2,
+                "red": 1,
+                "green": 6,
+                "yellow": 2,
+                "orange": 6
+            },
+            {
+                "bagNum": 85,
+                "white": 2,
+                "red": 2,
+                "green": 6,
+                "yellow": 4,
+                "orange": 1
+            },
+            {
+                "bagNum": 86,
+                "white": 5,
+                "red": 5,
+                "green": 6,
+                "yellow": 7,
+                "orange": 5
+            },
+            {
+                "bagNum": 87,
+                "white": 0,
+                "red": 5,
+                "green": 2,
+                "yellow": 6,
+                "orange": 4
+            },
+            {
+                "bagNum": 88,
+                "white": 1,
+                "red": 7,
+                "green": 5,
+                "yellow": 2,
+                "orange": 7
+            },
+            {
+                "bagNum": 89,
+                "white": 6,
+                "red": 3,
+                "green": 6,
+                "yellow": 6,
+                "orange": 0
+            },
+            {
+                "bagNum": 90,
+                "white": 8,
+                "red": 8,
+                "green": 7,
+                "yellow": 7,
+                "orange": 0
+            },
+            {
+                "bagNum": 91,
+                "white": 5,
+                "red": 3,
+                "green": 8,
+                "yellow": 4,
+                "orange": 3
+            },
+            {
+                "bagNum": 92,
+                "white": 8,
+                "red": 8,
+                "green": 5,
+                "yellow": 3,
+                "orange": 0
+            },
+            {
+                "bagNum": 93,
+                "white": 8,
+                "red": 1,
+                "green": 6,
+                "yellow": 0,
+                "orange": 0
+            },
+            {
+                "bagNum": 94,
+                "white": 8,
+                "red": 2,
+                "green": 0,
+                "yellow": 7,
+                "orange": 8
+            },
+            {
+                "bagNum": 95,
+                "white": 2,
+                "red": 0,
+                "green": 2,
+                "yellow": 7,
+                "orange": 6
+            },
+            {
+                "bagNum": 96,
+                "white": 5,
+                "red": 5,
+                "green": 0,
+                "yellow": 6,
+                "orange": 8
+            },
+            {
+                "bagNum": 97,
+                "white": 1,
+                "red": 5,
+                "green": 5,
+                "yellow": 3,
+                "orange": 5
+            },
+            {
+                "bagNum": 98,
+                "white": 4,
+                "red": 2,
+                "green": 8,
+                "yellow": 0,
+                "orange": 6
+            },
+            {
+                "bagNum": 99,
+                "white": 2,
+                "red": 1,
+                "green": 6,
+                "yellow": 7,
+                "orange": 3
+            }
+        ]
+    }
+}

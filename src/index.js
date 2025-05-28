@@ -8,7 +8,12 @@ const server = app.listen(80, () => {
     console.log('Start server : localhost');
 });
 
-app.get('/:data', async (req, res) => { 
+app.get('/clear', async (req, res) => { 
+    haribo.fileClear(); //db 초기화
+    res.send("success"); // 성공 시 보여지는 응답
+})
+
+app.get('/color/:data', async (req, res) => { 
 
     let start = performance.now();
     let { data } = req.params;
@@ -30,7 +35,7 @@ app.get('/:data', async (req, res) => {
 
     var goodRt = countCommonElements(result, mostColor);
     console.log(result.length, mostColor.length, goodRt);
-    res.send(`${data} / 일반 : ` +  ` 실행 시간 : ${end - start}ms, ${data} / 뇌 모방 : `+` 실행 시간2 : ${end2 - start2}ms,`+"정확도:"+goodRt/mostColor.length*100+"%"); // 성공 시 보여지는 응답
+    res.send(`${data} / 일반 : ` +  ` 실행 시간 : ${end - start}ms, ${data} / 뇌 모방 : `+` 실행 시간2 : ${end2 - start2}ms ,`+"정확도:"+goodRt/mostColor.length*100+"%"); // 성공 시 보여지는 응답
 })
 
 function countCommonElements(arr1, arr2) {
@@ -43,6 +48,5 @@ function countCommonElements(arr1, arr2) {
             count++;
         }
     }
-
     return count;
 }
