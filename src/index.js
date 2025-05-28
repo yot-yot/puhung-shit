@@ -1,12 +1,18 @@
 const express = require('express');
 const app = express();
 const haribo = require("./module/haribo");
+const path = require("path");
 
 const ban = 100; //반복횟수
 
 const server = app.listen(80, () => {
     console.log('Start server : localhost');
 });
+
+app.get('/', async (req, res) => { 
+    var filePath = path.join(__dirname, 'html', 'main.html');
+    res.sendFile(filePath);
+})
 
 app.get('/clear', async (req, res) => { 
     haribo.fileClear(); //db 초기화
