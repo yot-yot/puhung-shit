@@ -20,7 +20,6 @@ let dmJson = JSON.parse(fs.readFileSync("./storage/output/dummy.json"));
 
 */
 
-
 function writeBase(n) {
     var text = "";
     for (i = 0; i < n; i++) {
@@ -35,7 +34,6 @@ function writeBase(n) {
     text = text.slice(0, -1);
     text = text.split(",  ");
     text[n - 1] = text[n - 1].replace(", ", "");
-    //text = text.splice(n, n-1)
 
     var json = {
         "bag": {
@@ -45,7 +43,7 @@ function writeBase(n) {
     for (i = 0; i < n; i++) {
         json.bag.colorNum.push(JSON.parse(text[i]));
     }
-    //console.log(json);
+
     fs.writeFileSync("./storage/input/data.json", JSON.stringify(json), "utf-8");
 }
 
@@ -58,15 +56,12 @@ function haribo() {
 }
 
 function long(color) {
-    //dataJson = JSON.parse(fs.readFileSync("./storage/input/data.json"));
     j = 0
     mrJson = JSON.parse(fs.readFileSync("./storage/output/memory.json"));
     mrJson.longMr = [];
     for (i = 0; i < mrJson.shortMr[0].length; i++) {
 
         d = mrJson.shortMr[0][i];
-        //console.log(d)
-        //console.log(eval(`d.${color}`))
         if (eval(`d.${color}`) >= 4) {
 
             mrJson.longMr.push(d);
@@ -75,17 +70,14 @@ function long(color) {
             dmJson.noNeed.push(d);
         }
     }
-    //console.log(j, mrJson.longMr.length)
     fs.writeFileSync("./storage/output/memory.json", JSON.stringify(mrJson), "utf-8");
     fs.writeFileSync("./storage/output/dummy.json", JSON.stringify(dmJson), "utf-8");
     return mrJson.longMr;
 }
-//haribo(0, nowSee);
 
 function colorMost(color) {
     dataJson = JSON.parse(fs.readFileSync("./storage/input/data.json"));
     var re = [];
-    //console.log(eval(`dataJson.bag.colorNum[0].${color}`))
     var d;
     var num = 0;
     for (i = 0; i < dataJson.bag.colorNum.length; i++) {
@@ -95,7 +87,6 @@ function colorMost(color) {
             num += eval(`d.${color}`);
         }
     }
-    //console.log(num/n);
     if (re == []) return -1;
     return re;
 }
